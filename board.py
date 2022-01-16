@@ -18,9 +18,9 @@ class Board:
         for row in range(ROWS):
             for col in range(COLS):
                 pygame.draw.rect(WIN, WHITE,
-                         (col * (BOX_WIDTH + DIVIDER_SIZE),
-                          row * (BOX_HEIGHT + DIVIDER_SIZE),
-                          BOX_WIDTH, BOX_HEIGHT))
+                                 (col * (BOX_WIDTH + DIVIDER_SIZE),
+                                  row * (BOX_HEIGHT + DIVIDER_SIZE),
+                                  BOX_WIDTH, BOX_HEIGHT))
 
                 if self.grid[row][col] == 1:
                     pygame.draw.circle(WIN, XS,

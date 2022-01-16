@@ -2,7 +2,6 @@ import pygame
 from sys import argv
 from constants import *
 from game import Game
-from board import Board
 
 pygame.init()
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
